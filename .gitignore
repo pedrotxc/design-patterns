@@ -1,0 +1,22 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Arquivos de compilação Java
+/out/
+build/
+target/
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Configuração específica do IntelliJ
+*.ipr
+*.iws
+
+# Arquivos de backup
+*~
