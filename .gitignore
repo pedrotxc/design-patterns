@@ -1,22 +1,38 @@
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# Arquivos de compilação Java
-/out/
-build/
 target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Logs
-*.log
-
-# Arquivos temporários do sistema
-.DS_Store
-Thumbs.db
-
-# Configuração específica do IntelliJ
-*.ipr
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 *.iws
+*.iml
+*.ipr
 
-# Arquivos de backup
-*~
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
